@@ -22,7 +22,7 @@ Mac:
 	b) icalendar: Type ‘ pip install icalendar ‘ in terminal
 3) run the script. The easiest way is to type ‘ python3 {path to script file}
 	a) the easiest way to get the path to the script is to drag file onto command line window
-	b) when running the script, Chrome will open and auto log-in. It should load your class schedule but if there is an error on the schedule, press refresh.
+	b) when running the script, Chrome will open and auto log-in. It should load your class schedule but if there is an error on the schedule, press refresh. See the error image in the repository for an example.
 4) the script will place a file called [yourNetID]_class_schedule.ical in your /Users/[YourAccountName] directory
 5) upload the ical file to your calendar tool of choice
 
@@ -34,6 +34,6 @@ Windows:
 	a) selenium. Type ‘ pip install selenium ‘ in terminal
 	b) icalendar: Type ‘ pip install icalendar ‘ in terminal
 3) run the script. The easiest way is to drag and drop the python script onto the command line terminal (if configured)
-	a) when running the script, Chrome will open and auto log-in. It should load your class schedule but if there is an error on the schedule, press refresh.
+	a) when running the script, Chrome will open and auto log-in. It should load your class schedule but if there is an error on the schedule, press refresh. See the error image in the repository for an example.
 4) the script will place a file called [yourNetID]_class_schedule.ical in your C:/Users/[YourAccountName] directory
 5) upload the ical file to your calendar tool of choice
