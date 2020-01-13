@@ -1,1 +1,9 @@
+# IDE Files
 .idea
+/.vscode
+
+# Conda Environment
+/env
+
+# Filesystem files
+.DS_Store
