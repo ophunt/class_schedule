@@ -112,16 +112,15 @@ pw = None  # get rid of password
 # finish login
 submitButton = browser.find_element_by_name("_eventId_proceed")
 submitButton.click()
-time.sleep(10)  # wait for page to load
+time.sleep(15)  # wait for page to load
 
-innerHTML = browser.execute_script(
-    "return document.body.innerHTML")  # get the HTML from the page
+# get the HTML from the page
+innerHTML = browser.execute_script("return document.body.innerHTML")
 
 # Get class information with building/room location
 classWithLocation = browser.find_elements_by_class_name("fc-content")
 
 # Get class information with days/times
-#classWithDays = browser.find_elements_by_xpath("//*[@id=\"scheduler-view\"]/md-card[1]/md-content[1]/section[1]/md-list[2]/md-list-item[1]/div[1]/div[2]/div[1]/div[1]")
 classWithDays = []
 i = 1
 while len(browser.find_elements_by_xpath(f"//*[@id=\"scheduler-view\"]/md-card[1]/md-content[1]/section[1]/md-list[2]/md-list-item[{i}]/div[1]/div[2]/div[1]/div[1]")) is not 0:

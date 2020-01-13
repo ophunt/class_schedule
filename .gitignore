@@ -7,3 +7,6 @@
 
 # Filesystem files
 .DS_Store
+
+# Output files
+*.ical
