@@ -13,9 +13,9 @@ def buildEvent(calendar, startTime, endTime, name, location, days):
         e.add('summary', name)
         e.add('location', location)
         start_datetime = datetime.datetime.strptime(
-            '2019-09-09 ' + str(startTime), "%Y-%m-%d %H:%M")
+            '2020-01-27 ' + str(startTime), "%Y-%m-%d %H:%M")
         end_datetime = datetime.datetime.strptime(
-            '2019-09-09 ' + str(endTime), "%Y-%m-%d %H:%M")
+            '2020-01-27 ' + str(endTime), "%Y-%m-%d %H:%M")
         e.add('dtstart', start_datetime)
         e.add('dtend', end_datetime)
         e.add('dtstamp', datetime.datetime.now())
@@ -26,9 +26,9 @@ def buildEvent(calendar, startTime, endTime, name, location, days):
         e.add('summary', name)
         e.add('location', location)
         start_datetime = datetime.datetime.strptime(
-            '2019-09-10 ' + str(startTime), "%Y-%m-%d %H:%M")
+            '2020-01-21 ' + str(startTime), "%Y-%m-%d %H:%M")
         end_datetime = datetime.datetime.strptime(
-            '2019-09-10 ' + str(endTime), "%Y-%m-%d %H:%M")
+            '2020-01-21 ' + str(endTime), "%Y-%m-%d %H:%M")
         e.add('dtstart', start_datetime)
         e.add('dtend', end_datetime)
         e.add('dtstamp', datetime.datetime.now())
@@ -39,9 +39,9 @@ def buildEvent(calendar, startTime, endTime, name, location, days):
         e.add('summary', name)
         e.add('location', location)
         start_datetime = datetime.datetime.strptime(
-            '2019-09-04 ' + str(startTime), "%Y-%m-%d %H:%M")
+            '2020-01-22 ' + str(startTime), "%Y-%m-%d %H:%M")
         end_datetime = datetime.datetime.strptime(
-            '2019-09-04 ' + str(endTime), "%Y-%m-%d %H:%M")
+            '2020-01-22 ' + str(endTime), "%Y-%m-%d %H:%M")
         e.add('dtstart', start_datetime)
         e.add('dtend', end_datetime)
         e.add('dtstamp', datetime.datetime.now())
@@ -52,9 +52,9 @@ def buildEvent(calendar, startTime, endTime, name, location, days):
         e.add('summary', name)
         e.add('location', location)
         start_datetime = datetime.datetime.strptime(
-            '2019-09-05 ' + str(startTime), "%Y-%m-%d %H:%M")
+            '2020-01-23 ' + str(startTime), "%Y-%m-%d %H:%M")
         end_datetime = datetime.datetime.strptime(
-            '2019-09-05 ' + str(endTime), "%Y-%m-%d %H:%M")
+            '2020-01-23 ' + str(endTime), "%Y-%m-%d %H:%M")
         e.add('dtstart', start_datetime)
         e.add('dtend', end_datetime)
         e.add('dtstamp', datetime.datetime.now())
@@ -65,9 +65,9 @@ def buildEvent(calendar, startTime, endTime, name, location, days):
         e.add('summary', name)
         e.add('location', location)
         start_datetime = datetime.datetime.strptime(
-            '2019-09-06 ' + str(startTime), "%Y-%m-%d %H:%M")
+            '2020-01-24 ' + str(startTime), "%Y-%m-%d %H:%M")
         end_datetime = datetime.datetime.strptime(
-            '2019-09-06 ' + str(endTime), "%Y-%m-%d %H:%M")
+            '2020-01-24 ' + str(endTime), "%Y-%m-%d %H:%M")
         e.add('dtstart', start_datetime)
         e.add('dtend', end_datetime)
         e.add('dtstamp', datetime.datetime.now())
